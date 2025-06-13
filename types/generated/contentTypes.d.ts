@@ -405,7 +405,6 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String;
     price: Schema.Attribute.Decimal;
     publishedAt: Schema.Attribute.DateTime;
-    service: Schema.Attribute.Relation<'manyToOne', 'api::service.service'>;
     servicesSimilaires: Schema.Attribute.Relation<
       'oneToMany',
       'api::service.service'

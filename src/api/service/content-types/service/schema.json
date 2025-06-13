@@ -58,17 +58,10 @@
     "est_publie": {
       "type": "boolean"
     },
-    "service": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::service.service",
-      "inversedBy": "servicesSimilaires"
-    },
     "servicesSimilaires": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::service.service",
-      "mappedBy": "service"
+      "target": "api::service.service"
     },
     "similar_description": {
       "type": "text"
