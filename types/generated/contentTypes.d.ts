@@ -410,7 +410,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::service.service'
     >;
-    sessionDetails: Schema.Attribute.String;
+    sessionDetails: Schema.Attribute.Text;
     sessionsAvailable: Schema.Attribute.String;
     similar_description: Schema.Attribute.Text;
     slug: Schema.Attribute.UID;

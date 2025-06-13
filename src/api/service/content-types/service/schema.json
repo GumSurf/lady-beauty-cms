@@ -41,7 +41,7 @@
       "type": "text"
     },
     "sessionDetails": {
-      "type": "string"
+      "type": "text"
     },
     "benefits": {
       "type": "json"
