@@ -55,9 +55,6 @@
     "duration": {
       "type": "string"
     },
-    "nombre_de_seances": {
-      "type": "biginteger"
-    },
     "est_publie": {
       "type": "boolean"
     },
@@ -73,17 +70,8 @@
       "target": "api::service.service",
       "mappedBy": "service"
     },
-    "services": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::service.service",
-      "mappedBy": "Test"
-    },
-    "Test": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::service.service",
-      "inversedBy": "services"
+    "similar_description": {
+      "type": "text"
     }
   }
 }
