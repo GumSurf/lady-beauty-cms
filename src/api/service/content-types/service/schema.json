@@ -71,6 +71,11 @@
     },
     "similar_description": {
       "type": "text"
+    },
+    "FAQ": {
+      "type": "component",
+      "component": "faq.question",
+      "repeatable": false
     }
   }
 }
