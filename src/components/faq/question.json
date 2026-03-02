@@ -1,7 +1,7 @@
 {
   "collectionName": "components_faq_questions",
   "info": {
-    "displayName": "Question"
+    "displayName": "faqItem"
   },
   "options": {},
   "attributes": {

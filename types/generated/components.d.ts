@@ -3,7 +3,7 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface FaqQuestion extends Struct.ComponentSchema {
   collectionName: 'components_faq_questions';
   info: {
-    displayName: 'Question';
+    displayName: 'faqItem';
   };
   attributes: {
     answer: Schema.Attribute.Blocks;
