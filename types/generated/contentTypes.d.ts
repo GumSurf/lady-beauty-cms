@@ -413,7 +413,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
       'api::service.service'
     >;
     sessionDetails: Schema.Attribute.Text;
-    sessionsAvailable: Schema.Attribute.String;
+    sessionsAvailable: Schema.Attribute.Text;
     similar_description: Schema.Attribute.Text;
     slug: Schema.Attribute.UID;
     updatedAt: Schema.Attribute.DateTime;
