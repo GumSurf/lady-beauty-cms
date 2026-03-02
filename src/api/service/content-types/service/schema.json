@@ -75,7 +75,7 @@
     "faq": {
       "type": "component",
       "component": "faq.question",
-      "repeatable": false
+      "repeatable": true
     }
   }
 }

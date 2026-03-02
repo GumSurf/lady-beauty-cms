@@ -391,7 +391,7 @@ export interface ApiServiceService extends Struct.CollectionTypeSchema {
     description: Schema.Attribute.Text;
     duration: Schema.Attribute.String;
     est_publie: Schema.Attribute.Boolean;
-    faq: Schema.Attribute.Component<'faq.question', false>;
+    faq: Schema.Attribute.Component<'faq.question', true>;
     imageHero: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     imageHeroPath: Schema.Attribute.String;
     images: Schema.Attribute.Media<
